@@ -1,0 +1,81 @@
+@import url(https://db.onlinewebfonts.com/c/65434f98d9cb9d4765f9c22c87415923?family=Ravenna-Serial-Regular+DB);
+@import url(https://db.onlinewebfonts.com/c/4b29e8837ba09efecb596876d2455a01?family=Ravenna-Bold);
+@import url(https://db.onlinewebfonts.com/c/8f4faeb7f34923c3a23c87e268cc92c8?family=Ravenna-Medium);
+
+section{
+    background: #ffffff;
+    border-radius: 15px;
+    justify-content: center;
+    font-family: "Ravenna-Serial-Regular DB";
+    width: 80%;
+}
+
+body{
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    font-family: "Ravenna-Serial-Regular DB";
+	background:#ced6f0 ;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.service-card{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align:start;
+}
+
+svg {
+    display: inline-block;
+    border-radius: 50%; /* Esto hace que el borde sea un círculo */
+    padding: 8px; /* Esto agrega espacio alrededor del SVG */
+    background-color: #4269e2; /* Esto cambia el color de fondo a celeste */
+    color: white;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: #0e2058;
+    font-family: "Ravenna-Bold";
+    margin: 10px 0px;
+}
+
+h3{
+    text-align: center;
+    font-size: 10px;
+    color: #2a56de;
+    margin-top: 35px;
+}
+
+p{
+    text-align: center;
+    font-size: 10px;
+    color: #626262;
+    font-family: "Ravenna-Medium";
+}
+
+.service-card p{
+    text-align: start;
+    margin: 0px;
+    font-size: 10px;
+    color: #808080;
+    padding-top: 5px;
+    font-family: "Ravenna-Medium";
+}
+
+.service-card h2{
+    margin: 0px;
+    font-size: 12px;
+    color: #0e2058;
+}
