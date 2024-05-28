@@ -20,15 +20,24 @@ body{
 	background:#ced6f0 ;
 }
 
-.services-grid{
+.services-grid {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    padding: 20px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    justify-content: space-around; /* Alineación horizontal */
+    align-items: center; /* Alineación vertical */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding: 30px; /* Espacio alrededor del grid */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+      grid-template-rows: repeat(3, 1fr); /* 3 filas en pantallas pequeñas */
+    }
 }
 
 .service-card{
-    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align:start;
